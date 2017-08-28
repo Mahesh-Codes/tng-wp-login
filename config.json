@@ -1,0 +1,217 @@
+{
+	"database": {
+		"host": "localhost"
+	},
+	"paths": {
+		"tng_path": "/mnt/d/www/tng/",
+		"tng_url": "http://localhost/tng/",
+		"tng_photo_folder": "photos"
+	},
+	"reg_complete": {
+		"title": "Registration Complete",
+		"line1": "Thank you for registering for the Genealogy site of Upadhyaya Family and Relatives.<br />",
+		"line2": "Your account will be confirmed by an administrator and you will be notified via email.<br />",
+		"line3": "Best Regards<br /><br />",
+		"line4": "Mahesh"
+	},
+	"reg_form": {
+		"sections": [
+			{
+				"label": "About You",
+				"fields": [
+					{
+						"name": "firstname",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "First Name*",
+						"description": "Your first name",
+						"placeholder": "First name"
+					},
+					{
+						"name": "lastname",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Last Name*",
+						"description": "Your (birth) last name",
+						"placeholder": "last name"
+					},
+					{
+						"name": "NickName",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Nick Name",
+						"description": "Your Nick name, if any",
+						"placeholder": "any other name"
+					}
+				]
+			},
+			{
+				"label": "Your Log-in Credentials",
+				"fields": [
+					{
+						"name": "loginname",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Login Name*",
+						"description": "Name to Login",
+						"placeholder": "Login name"
+					},
+					{
+						"name": "email",
+						"enabled": true,
+						"textenabled": false,
+						"type": "email",
+						"label": "Your E-mail*",
+						"description": "Your email",
+						"placeholder": "example@domain.com"
+					},
+					{
+						"name": "password",
+						"enabled": true,
+						"textenabled": false,
+						"type": "password",
+						"label": "password*",
+						"description": " password you can remember",
+						"placeholder": "8 or more is good"
+					}
+				]
+			},
+			{
+				"label": "Additional Information",
+				"fields": [
+					{
+						"name": "tng_interest",
+						"enabled": true,
+						"textenabled": true,
+						"type": "textarea",
+						"label": "Your Interest",
+						"description": "Your interest in this family tree",
+						"placeholder": "are we related?"
+					},
+					{
+						"name": "bioinfo",
+						"enabled": true,
+						"textenabled": true,
+						"type": "textarea",
+						"label": "About You",
+						"description": "Your interest in this family tree",
+						"placeholder": "Something about you for your genealogy page"
+					}
+				]
+			}
+		]
+	},
+	"show_profile": {
+		"sections": [
+			{
+				"label": "My Details",
+				"fields": [
+					{
+						"name": "first_name",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "First Name*",
+						"description": "Your first name",
+						"placeholder": "First name"
+					},
+					{
+						"name": "last_name",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Last Name*",
+						"description": "Your (birth) last name",
+						"placeholder": "last name"
+					},
+					{
+						"name": "nickname",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Nick Name",
+						"description": "Your Nick name, if any",
+						"placeholder": "any other name"
+					},
+					{
+						"name": "display_name",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Display Name",
+						"description": "Your Nick name, if any",
+						"placeholder": "any other name"
+					}
+				]
+			},
+			{
+				"label": "Your Log-in Credentials",
+				"fields": [
+					{
+						"name": "user_login",
+						"enabled": true,
+						"textenabled": false,
+						"type": "text",
+						"label": "Login Name*",
+						"description": "Name to Login",
+						"placeholder": "Login name"
+					},
+					{
+						"name": "user_email",
+						"enabled": true,
+						"textenabled": false,
+						"type": "email",
+						"label": "Your E-mail*",
+						"description": "Your email",
+						"placeholder": "example@domain.com"
+					},
+					{
+						"name": "user_pass",
+						"enabled": true,
+						"textenabled": false,
+						"type": "password",
+						"label": "password*",
+						"description": "Password",
+						"placeholder": "password you can remember"
+					},
+					{
+						"name": "new_pass",
+						"enabled": true,
+						"textenabled": false,
+						"type": "password",
+						"label": "New password",
+						"description": "To change password, type a new one. Otherwise leave blank",
+						"placeholder": "New Password - 8 charac or more"
+					}
+				]
+			},
+			{
+				"label": "About Yourself",
+				"fields": [
+					{
+						"name": "tng_interest",
+						"enabled": true,
+						"textenabled": true,
+						"type": "textarea",
+						"label": "Your Interest",
+						"description": "Your interest in this family tree",
+						"placeholder": "are we related?"
+					},
+					{
+						"name": "description",
+						"enabled": true,
+						"textenabled": true,
+						"type": "textarea",
+						"label": "About You",
+						"description": "About You",
+						"placeholder": "Something about you for your genealogy page"
+					}
+				]
+			}
+		]
+	}
+}
